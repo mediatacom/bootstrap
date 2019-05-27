@@ -1,0 +1,49 @@
+{
+  "name": "mediatacom/bootstrap",
+  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "type": "component",
+  "keywords": [
+    "css",
+    "less",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "https://github.com/mediatatom/bootstrap",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Björn Köster",
+      "homepage": "https://www.mediata.net",
+      "email": "bjoern.koester@mediata.net"
+    },
+    {
+      "name": "Holger Marx",
+      "homepage": "https://www.mediata.net",
+      "email": "holger.marx@mediata.net"
+    }
+  ],
+  "require": {
+    "mediatacom/jquery": "^1.0|dev-master"
+  },
+  "extra": {
+    "component": {
+      "scripts": [
+        "js/bootstrap.js"
+      ],
+      "files": [
+        "js/*.js",
+        "css/*.css",
+        "css/*.map",
+        "fonts/*",
+        "less/mixins/*.less",
+        "less/*.less"
+      ],
+      "shim": {
+        "deps": ["jquery"]
+      }
+    }
+  }
+}
